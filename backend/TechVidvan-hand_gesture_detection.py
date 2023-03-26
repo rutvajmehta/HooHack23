@@ -58,6 +58,8 @@ while True:
             mpDraw.draw_landmarks(frame, handslms, mpHands.HAND_CONNECTIONS)
 
             # Predict gesture
+            # model = tf.keras.models.load_model('mp_hand_gesture')
+            # prediction = model.predict(tf)
             prediction = model.predict([landmarks])
             # print(prediction)
             classID = np.argmax(prediction)
