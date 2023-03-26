@@ -14,7 +14,7 @@ public class CSVColumnDeleter {
         String inputFilePath = "2019-20.csv"; // path to input CSV file
         String outputFilePath = "2019-20-filtered.csv"; // path to output CSV file
         List<Integer> columnsToDelete = new ArrayList<>(); // list of column indexes to delete
-        columnsToDelete.add(0);
+        // columnsToDelete.add(0);
         columnsToDelete.add(1); // example: delete second column (index 1)
         // columnsToDelete.add(3);
         columnsToDelete.add(4);
