@@ -5,7 +5,7 @@ public class Player {
     private Game [][] gamesStats = new Game[22][];
     private int gameIndex =0;
 
-    public Player(String name, Game gameStat){
+    public Player(String name){
         this.name = name;
 
     }
